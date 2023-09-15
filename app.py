@@ -14,7 +14,7 @@ SMTP_PASSWORD = 'icaw srlx nonu tahr'
 
 # URL del sitio web a verificar y texto específico a buscar
 website_url = "https://catalogo.movistar.cl/tienda/outlet/celulares-reacondicionados?marca=847"
-text_to_find = "iPhone 15"
+text_to_find = "iPhone 14"
 
 app = Flask(__name__)
 
