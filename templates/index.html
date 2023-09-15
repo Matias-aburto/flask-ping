@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ping Dashboard</title>
+</head>
+<body>
+    <h1>Ping Dashboard</h1>
+    <form method="POST">
+        <label for="website">Ingresa una URL:</label>
+        <input type="text" id="website" name="website" required>
+        <button type="submit">Ping</button>
+    </form>
+    {% if ping_result %}
+    <h2>Resultado del Ping:</h2>
+    <pre>{{ ping_result }}</pre>
+    {% endif %}
+</body>
+</html>
